@@ -1,0 +1,1 @@
+Timeline directive for Angular 1. Uses jquery-ui drag feature.

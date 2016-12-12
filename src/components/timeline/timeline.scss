@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+}
+
+.timeline-handle-container {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: indianred;
+    
+}
+
+.timeline-handle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: saddlebrown;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    height: 18px;
+}
+
+.timeline-selection {
+    background-color: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 46px;
+    width: 75px;
+    border: 2px solid #FFDDBE;
+    color: #98CCB7;
+}
+
+.timeline-selection-year {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   padding-left: 10px; 
+}
+
+
+.timeline {
+    background-color: #549B7E;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    cursor: pointer;
+}
+
+.timeline-section {
+    background-color: #2A4D6E;
+    color: #98CCB7; 
+    position: relative;
+    display: inline-block;
+    min-height: 46px;
+    min-width: 68px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.timeline-container {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    height: 50px;
+    background-color: #E4AD7B;
+    border: 2px solid black;
+    overflow: hidden;
+}
